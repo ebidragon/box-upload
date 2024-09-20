@@ -1,0 +1,6 @@
+{
+  "accessToken": "ACCESS_TOKEN",
+  "refreshToken": "REFRESH_TOKEN",
+  "accessTokenTTLMS": 3600000,
+  "acquiredAtMS": 1714489200000
+}
