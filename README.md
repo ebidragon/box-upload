@@ -26,9 +26,9 @@ cp token/user_id.json.example token/2267862105.json
 - [user_id](https://developer.box.com/platform/appendix/locating-values/#user-ids)
 - [folder_id](https://developer.box.com/platform/appendix/locating-values/#content-ids)
 ```bash
-USER_ID="2267862105"
-FOLDER_ID="9876543210"
-FILE_PATH="/home/username/test.txt"
+USER_ID='2267862105'
+FOLDER_ID='9876543210'
+FILE_PATH='/home/username/test.txt'
 
 node index.js get $USER_ID $FOLDER_ID
 node index.js getItems $USER_ID $FOLDER_ID
