@@ -18,9 +18,8 @@ cp .env.example .env
 ```bash
 cp token/user_id.json.example token/2267862105.json
 ```
-1. Get token info using [Box-node.js-SKD-with-OAuth-2.0](https://github.com/box-community/Box-node.js-SKD-with-OAuth-2.0/)
-2. Execute method `console.log(req.session.user_token);` at [line 51](https://github.com/box-community/Box-node.js-SKD-with-OAuth-2.0/blob/5058878c7658c9f78e06c3ac798dd0f33bea2871/index.js#L51)
-3. Copy token info to [token/user_id.json](token/user_id.json) `accessToken` `refreshToken` `accessTokenTTLMS` `acquiredAtMS`
+1. Get token info using [get-box-token](https://github.com/ebidragon/get-box-token)
+2. Copy token info to [token/user_id.json](token/user_id.json) `accessToken` `refreshToken` `accessTokenTTLMS` `acquiredAtMS`
 
 ## Usage
 - [user_id](https://developer.box.com/platform/appendix/locating-values/#user-ids)
